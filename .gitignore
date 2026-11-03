@@ -1,0 +1,43 @@
+# Keil 构建产物
+keil/Objects/
+keil/*.map
+keil/*.log
+keil/*.htm
+keil/*.axf
+keil/*.hex
+keil/*.dep
+keil/*.crf
+keil/*.lst
+keil/*.lnp
+keil/*.uvguix.*
+keil/*.bak
+
+# GCC / IAR / TI Clang 构建产物
+gcc/Objects/
+gcc/*.o
+gcc/*.d
+gcc/*.map
+gcc/*.elf
+iar/Obj/
+iar/Exe/
+iar/*.map
+iar/*.out
+ticlang/Objects/
+ticlang/*.o
+ticlang/*.d
+ticlang/*.map
+ticlang/*.out
+
+# SysConfig 生成的过程文件
+Event.dot
+
+# 编辑器与系统
+.vscode/
+.idea/
+*.swp
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# WorkBuddy 工作区数据（本地记忆，不上传）
+.workbuddy/
